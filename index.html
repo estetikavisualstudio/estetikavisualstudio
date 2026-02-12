@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estetika Visual Studio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    height: 80vh;
+    background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 12px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2>Estetika Visual Studio</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>Aesthetic & Functional Interior Design</h1>
+<p>Designing spaces with character and quality</p>
+<a href="#contact" class="btn">Consult Now</a>
+</div>
+</section>
+
+<section id="about" class="section">
+<h2>About Studio</h2>
+<p>Estetika Visual Studio adalah studio desain interior yang menghadirkan solusi ruang melalui pendekatan estetika, fungsi, dan karakter pengguna.</p>
+</section>
+
+<section id="services" class="section">
+<h2>Services</h2>
+<div class="grid">
+<div class="card">
+<h3>Residential Interior</h3>
+<p>Desain interior hunian modern dan fungsional.</p>
+</div>
+
+<div class="card">
+<h3>Commercial Interior</h3>
+<p>Desain interior cafe, retail, dan hospitality.</p>
+</div>
+
+<div class="card">
+<h3>3D Visualization</h3>
+<p>Rendering visual realistis untuk presentasi desain.</p>
+</div>
+</div>
+</section>
+
+<section id="portfolio" class="section">
+<h2>Portfolio</h2>
+<div class="grid">
+<img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6" width="100%">
+<img src="https://images.unsplash.com/photo-1617104551722-3b2e9f1d5c92" width="100%">
+<img src="https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4" width="100%">
+</div>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<p>Email: estetikavisualstudio@email.com</p>
+<p>WhatsApp: 08xxxxxxx</p>
+<a href="#" class="btn">Chat WhatsApp</a>
+</section>
+
+<footer>
+<p>© 2026 Estetika Visual Studio</p>
+</footer>
+
+</body>
+</html>
